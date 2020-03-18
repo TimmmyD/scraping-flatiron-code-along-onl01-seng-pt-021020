@@ -1,3 +1,5 @@
+require_relative './course.rb'
+
 def make_courses
   self.get_courses.each do |post|
     course = Course.new
